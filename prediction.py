@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 import json
 
 train_data = pd.read_json('C:/Users/Marius/Desktop/SII/pred/train.json')
-test_data = pd.read_json('C:/Users/Marius/Desktop/SII/pred/test1.json')
+test_data = pd.read_json('C:/Users/Marius/Desktop/SII/pred/test.json')
 
 '''missing_values = train_data.isnull().sum()
 print("Numărul total de valori lipsă în fiecare coloană:")
