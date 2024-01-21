@@ -79,6 +79,7 @@ for index, row in test_data.iterrows():
         "optiuni_culoare": row["optiuni_culoare"],
         "addons": row["addons"],
         "pret": predictions[index], 
+        "id": row["id"]
     }
     result_list.append(result_dict)
 
